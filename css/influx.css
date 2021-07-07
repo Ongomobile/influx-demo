@@ -39,7 +39,7 @@
 .featured-headline {
   overflow: hidden;
   margin-bottom: -15px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   color: #e0e1e2;
   font-size: 180px;
   line-height: 180px;
@@ -126,14 +126,14 @@
 
 .feature-content-heading {
   margin-bottom: 40px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   color: #005f71;
   font-size: 60px;
 }
 
 .feature-main-text {
   margin-bottom: 40px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   color: #6c7375;
   font-size: 31px;
   line-height: 45px;
@@ -181,11 +181,14 @@
   align-items: center;
   background-color: #a8d4db;
   text-decoration: none;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.06), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.04),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.03), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.02),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.02), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
 
 @font-face {
-  font-family: 'Proximanova';
-  src: url('../fonts/ProximaNova.ttf') format('truetype');
+  font-family: "Proximanova";
+  src: url("../fonts/ProximaNova.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
