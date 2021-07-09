@@ -5,14 +5,16 @@
   letter-spacing: normal;
   text-decoration: none;
 }
+
 .featured-container {
   position: absolute;
   left: 0%;
-  top: 425px;
+  top: 513px;
   right: 0%;
   bottom: auto;
   height: auto;
   max-width: 1600px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 356px;
@@ -20,10 +22,7 @@
 }
 
 .featured-headline-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   height: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -38,10 +37,12 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  text-align: center;
 }
 
 .featured-headline {
   overflow: hidden;
+  margin-top: 0;
   margin-bottom: -15px;
   font-family: "Playfair Display", sans-serif;
   color: #e0e1e2;
